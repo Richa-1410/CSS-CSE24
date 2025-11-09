@@ -1,0 +1,13 @@
+.box2{
+    background-color: yellow;
+    height: 200px;
+    width: 600px;
+    border: 50px solid blue;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+p{
+    align-self: center;
+    margin: 70px;
+}
