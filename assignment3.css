@@ -1,3 +1,6 @@
+.box1{
+    border: 10px solid black;
+}
 .box2{
     background-color: yellow;
     height: 200px;
