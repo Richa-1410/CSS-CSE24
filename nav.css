@@ -1,0 +1,54 @@
+.body{
+    margin: 0;
+    font-family:Arial, sans-serif;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 1rem;
+}
+.logo{
+    color:white;
+    font-size: 1.5rem;
+    
+}
+.menu{
+    display: none;
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+
+}
+.menu a{
+    color:white;
+    padding: 1rem;
+    text-decoration: none;
+    display:block;
+   
+}
+.hamburger{
+    cursor: pointer;
+    font-size: 2rem;
+    color:white;
+
+    
+   
+}
+@media(min-width:768px){
+    .menu{
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background: none;
+    }
+    .hamburger{
+        display: none;
+    }
+}
